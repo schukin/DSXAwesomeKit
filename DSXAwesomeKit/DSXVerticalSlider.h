@@ -7,6 +7,9 @@
 
 #import <UIKit/UIKit.h>
 
+/**
+ A half-baked UISlider that slides vertically.
+ */
 @interface DSXVerticalSlider : UIControl
 
 @end
