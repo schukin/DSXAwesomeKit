@@ -22,6 +22,7 @@
 		0C3FD665187A94BC006A473F /* DSXVerticalSlider.m in Sources */ = {isa = PBXBuildFile; fileRef = 0C3FD664187A94BC006A473F /* DSXVerticalSlider.m */; };
 		0C8B2DA7187D0D0700D6D81C /* UIImage+DSXIcons.m in Sources */ = {isa = PBXBuildFile; fileRef = 0C8B2DA6187D0D0700D6D81C /* UIImage+DSXIcons.m */; };
 		E13953794B9D44D9BB7EF6E7 /* libPods.a in Frameworks */ = {isa = PBXBuildFile; fileRef = BE4699DA91644053AC17F79E /* libPods.a */; };
+		F56633EC18D22C380094826C /* NSObject+DSXInspect.m in Sources */ = {isa = PBXBuildFile; fileRef = F56633EB18D22C380094826C /* NSObject+DSXInspect.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -57,6 +58,8 @@
 		0C8B2DA6187D0D0700D6D81C /* UIImage+DSXIcons.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIImage+DSXIcons.m"; sourceTree = "<group>"; };
 		984F52A7A0614999B94D8768 /* Pods.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = Pods.xcconfig; path = Pods/Pods.xcconfig; sourceTree = "<group>"; };
 		BE4699DA91644053AC17F79E /* libPods.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = libPods.a; sourceTree = BUILT_PRODUCTS_DIR; };
+		F56633EA18D22C380094826C /* NSObject+DSXInspect.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "NSObject+DSXInspect.h"; sourceTree = "<group>"; };
+		F56633EB18D22C380094826C /* NSObject+DSXInspect.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "NSObject+DSXInspect.m"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -172,6 +175,8 @@
 			children = (
 				0C8B2DA5187D0D0700D6D81C /* UIImage+DSXIcons.h */,
 				0C8B2DA6187D0D0700D6D81C /* UIImage+DSXIcons.m */,
+				F56633EA18D22C380094826C /* NSObject+DSXInspect.h */,
+				F56633EB18D22C380094826C /* NSObject+DSXInspect.m */,
 			);
 			name = Categories;
 			sourceTree = "<group>";
@@ -307,6 +312,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				F56633EC18D22C380094826C /* NSObject+DSXInspect.m in Sources */,
 				0C8B2DA7187D0D0700D6D81C /* UIImage+DSXIcons.m in Sources */,
 				0C3FD665187A94BC006A473F /* DSXVerticalSlider.m in Sources */,
 				0C3FD644187A93E6006A473F /* DSXAppDelegate.m in Sources */,
